@@ -1,0 +1,39 @@
+Primera Parte
+
+public class Main {
+      
+   public static void main(String[] args) {
+        
+     int a= 10;
+     int b= 15;
+     int c= 6;
+     int suma;
+     suma = sumar(a,b,c);
+     System.out.println(suma);
+    }
+            public static int sumar(int a, int b, int c){
+            int resultado;
+            resultado = a+b+c;
+            return resultado;
+    }
+}
+
+
+Segunda parte
+
+public class Main {
+
+    public static void main(String[] args) {
+      Automovil miCoche = new Automovil();
+      miCoche.PonerPuerta();
+      System.out.println(miCoche.puertas);
+    }
+}
+    
+ class Automovil {
+    public int puertas = 2;   
+    
+    public void PonerPuerta(){
+       this.puertas ++; 
+    }
+}
